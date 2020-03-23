@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="650px" height="490px" viewBox="0 0 650 490" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>other-flag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="borad" transform="translate(-73.000000, -96.000000)" fill="#949393" fill-rule="nonzero" stroke="#000000" stroke-width="5">
+            <g id="other-flag" transform="translate(78.000000, 101.000000)">
+                <path d="M-2.5,-2.5 L642.5,-2.5 L642.5,482.5 L-2.5,482.5 L-2.5,-2.5 Z" id="rect"></path>
+            </g>
+        </g>
+    </g>
+</svg>

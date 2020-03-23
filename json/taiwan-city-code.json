@@ -1,0 +1,67 @@
+[{
+  "cityCode": 1,
+  "cityName": "基隆市"
+}, {
+  "cityCode": 2,
+  "cityName": "台北市"
+}, {
+  "cityCode": 3,
+  "cityName": "新北市"
+}, {
+  "cityCode": 4,
+  "cityName": "桃園市"
+}, {
+  "cityCode": 5,
+  "cityName": "新竹市"
+}, {
+  "cityCode": 6,
+  "cityName": "新竹縣"
+}, {
+  "cityCode": 7,
+  "cityName": "苗栗縣"
+}, {
+  "cityCode": 8,
+  "cityName": "台中市"
+}, {
+  "cityCode": 9,
+  "cityName": "彰化縣"
+}, {
+  "cityCode": 10,
+  "cityName": "南投縣"
+}, {
+  "cityCode": 11,
+  "cityName": "雲林縣"
+}, {
+  "cityCode": 12,
+  "cityName": "嘉義市"
+}, {
+  "cityCode": 13,
+  "cityName": "嘉義縣"
+}, {
+  "cityCode": 14,
+  "cityName": "台南市"
+}, {
+  "cityCode": 15,
+  "cityName": "高雄市"
+}, {
+  "cityCode": 16,
+  "cityName": "屏東縣"
+}, {
+  "cityCode": 17,
+  "cityName": "台東縣"
+}, {
+  "cityCode": 18,
+  "cityName": "花蓮縣"
+}, {
+  "cityCode": 19,
+  "cityName": "宜蘭縣"
+}, {
+  "cityCode": 20,
+  "cityName": "澎湖縣"
+}, {
+  "cityCode": 21,
+  "cityName": "金門縣"
+}, {
+  "cityCode": 22,
+  "cityName": "連江縣"
+}]

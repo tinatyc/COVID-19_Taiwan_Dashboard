@@ -1,0 +1,21 @@
+.tw-map {
+  width: 100%;
+  height: auto;
+}
+
+.st0 {
+  fill: none;
+  stroke: #5F9EA0;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.st1 {
+  /* fill: #6DD0A6; */
+  fill: #fff;
+  stroke: #5F9EA0;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

@@ -1,0 +1,766 @@
+[{
+    "countyCode": "BD",
+    "countyName": "Bangladesh"
+  }, {
+    "countyCode": "BE",
+    "countyName": "Belgium"
+  }, {
+    "countyCode": "BF",
+    "countyName": "Burkina Faso"
+  }, {
+    "countyCode": "BG",
+    "countyName": "Bulgaria"
+  }, {
+    "countyCode": "BA",
+    "countyName": "Bosnia and Herzegovina"
+  }, {
+    "countyCode": "BB",
+    "countyName": "Barbados"
+  }, {
+    "countyCode": "WF",
+    "countyName": "Wallis and Futuna Is."
+  }, {
+    "countyCode": "BL",
+    "countyName": "St-Barthelemy"
+  }, {
+    "countyCode": "BM",
+    "countyName": "Bermuda"
+  }, {
+    "countyCode": "BN",
+    "countyName": "Brunei"
+  }, {
+    "countyCode": "BO",
+    "countyName": "Bolivia"
+  }, {
+    "countyCode": "BH",
+    "countyName": "Bahrain"
+  }, {
+    "countyCode": "BI",
+    "countyName": "Burundi"
+  }, {
+    "countyCode": "BJ",
+    "countyName": "Benin"
+  }, {
+    "countyCode": "BT",
+    "countyName": "Bhutan"
+  }, {
+    "countyCode": "JM",
+    "countyName": "Jamaica"
+  }, {
+    "countyCode": "BV",
+    "countyName": "Bouvet Island"
+  }, {
+    "countyCode": "BW",
+    "countyName": "Botswana"
+  }, {
+    "countyCode": "WS",
+    "countyName": "Samoa"
+  }, {
+    "countyCode": "BQ",
+    "countyName": "Bonaire, St. Eustatius and Saba "
+  }, {
+    "countyCode": "BR",
+    "countyName": "Brazil"
+  }, {
+    "countyCode": "BS",
+    "countyName": "Bahamas"
+  }, {
+    "countyCode": "JE",
+    "countyName": "Jersey"
+  }, {
+    "countyCode": "BY",
+    "countyName": "Belarus"
+  }, {
+    "countyCode": "BZ",
+    "countyName": "Belize"
+  }, {
+    "countyCode": "RU",
+    "countyName": "Russia"
+  }, {
+    "countyCode": "RW",
+    "countyName": "Rwanda"
+  }, {
+    "countyCode": "RS",
+    "countyName": "Serbia"
+  }, {
+    "countyCode": "TL",
+    "countyName": "Timor-Leste"
+  }, {
+    "countyCode": "RE",
+    "countyName": "Reunion"
+  }, {
+    "countyCode": "TM",
+    "countyName": "Turkmenistan"
+  }, {
+    "countyCode": "TJ",
+    "countyName": "Tajikistan"
+  }, {
+    "countyCode": "RO",
+    "countyName": "Romania"
+  }, {
+    "countyCode": "TK",
+    "countyName": "Tokelau"
+  }, {
+    "countyCode": "GW",
+    "countyName": "Guinea-Bissau"
+  }, {
+    "countyCode": "GU",
+    "countyName": "Guam"
+  }, {
+    "countyCode": "GT",
+    "countyName": "Guatemala"
+  }, {
+    "countyCode": "GS",
+    "countyName": "South Georgia and the South Sandwich Is."
+  }, {
+    "countyCode": "GR",
+    "countyName": "Greece"
+  }, {
+    "countyCode": "GQ",
+    "countyName": "Equatorial Guinea"
+  }, {
+    "countyCode": "GP",
+    "countyName": "Guadeloupe"
+  }, {
+    "countyCode": "JP",
+    "countyName": "Japan"
+  }, {
+    "countyCode": "GY",
+    "countyName": "Guyana"
+  }, {
+    "countyCode": "GG",
+    "countyName": "Guernsey"
+  }, {
+    "countyCode": "GF",
+    "countyName": "French Guiana"
+  }, {
+    "countyCode": "GE",
+    "countyName": "Georgia"
+  }, {
+    "countyCode": "GD",
+    "countyName": "Grenada"
+  }, {
+    "countyCode": "GB",
+    "countyName": "United Kingdom"
+  }, {
+    "countyCode": "GA",
+    "countyName": "Gabon"
+  }, {
+    "countyCode": "SV",
+    "countyName": "El Salvador"
+  }, {
+    "countyCode": "GN",
+    "countyName": "Guinea"
+  }, {
+    "countyCode": "GM",
+    "countyName": "Gambia"
+  }, {
+    "countyCode": "GL",
+    "countyName": "Greenland"
+  }, {
+    "countyCode": "GI",
+    "countyName": "Gibraltar"
+  }, {
+    "countyCode": "GH",
+    "countyName": "Ghana"
+  }, {
+    "countyCode": "OM",
+    "countyName": "Oman"
+  }, {
+    "countyCode": "TN",
+    "countyName": "Tunisia"
+  }, {
+    "countyCode": "JO",
+    "countyName": "Jordan"
+  }, {
+    "countyCode": "HR",
+    "countyName": "Croatia"
+  }, {
+    "countyCode": "HT",
+    "countyName": "Haiti"
+  }, {
+    "countyCode": "HU",
+    "countyName": "Hungary"
+  }, {
+    "countyCode": "HK",
+    "countyName": "Hong Kong"
+  }, {
+    "countyCode": "HN",
+    "countyName": "Honduras"
+  }, {
+    "countyCode": "HM",
+    "countyName": "Heard Island and McDonald Is."
+  }, {
+    "countyCode": "VE",
+    "countyName": "Venezuela"
+  }, {
+    "countyCode": "PR",
+    "countyName": "Puerto Rico"
+  }, {
+    "countyCode": "PS",
+    "countyName": "Palestine"
+  }, {
+    "countyCode": "PW",
+    "countyName": "Palau"
+  }, {
+    "countyCode": "PT",
+    "countyName": "Portugal"
+  }, {
+    "countyCode": "SJ",
+    "countyName": "Svalbard and Jan Mayen"
+  }, {
+    "countyCode": "PY",
+    "countyName": "Paraguay"
+  }, {
+    "countyCode": "IQ",
+    "countyName": "Iraq"
+  }, {
+    "countyCode": "PA",
+    "countyName": "Panama"
+  }, {
+    "countyCode": "PF",
+    "countyName": "Fr. Polynesia"
+  }, {
+    "countyCode": "PG",
+    "countyName": "Papua New Guinea"
+  }, {
+    "countyCode": "PE",
+    "countyName": "Peru"
+  }, {
+    "countyCode": "PK",
+    "countyName": "Pakistan"
+  }, {
+    "countyCode": "PH",
+    "countyName": "Philippines"
+  }, {
+    "countyCode": "PN",
+    "countyName": "Pitcairn Is."
+  }, {
+    "countyCode": "PL",
+    "countyName": "Poland"
+  }, {
+    "countyCode": "PM",
+    "countyName": "St. Pierre and Miquelon"
+  }, {
+    "countyCode": "ZM",
+    "countyName": "Zambia"
+  }, {
+    "countyCode": "EH",
+    "countyName": "W. Sahara"
+  }, {
+    "countyCode": "EE",
+    "countyName": "Estonia"
+  }, {
+    "countyCode": "EG",
+    "countyName": "Egypt"
+  }, {
+    "countyCode": "ZA",
+    "countyName": "South Africa"
+  }, {
+    "countyCode": "EC",
+    "countyName": "Ecuador"
+  }, {
+    "countyCode": "IT",
+    "countyName": "Italy"
+  }, {
+    "countyCode": "VN",
+    "countyName": "Vietnam"
+  }, {
+    "countyCode": "SB",
+    "countyName": "Solomon Is."
+  }, {
+    "countyCode": "ET",
+    "countyName": "Ethiopia"
+  }, {
+    "countyCode": "SO",
+    "countyName": "Somaliland"
+  }, {
+    "countyCode": "ZW",
+    "countyName": "Zimbabwe"
+  }, {
+    "countyCode": "SA",
+    "countyName": "Saudi Arabia"
+  }, {
+    "countyCode": "ES",
+    "countyName": "Spain"
+  }, {
+    "countyCode": "ER",
+    "countyName": "Eritrea"
+  }, {
+    "countyCode": "ME",
+    "countyName": "Montenegro"
+  }, {
+    "countyCode": "MD",
+    "countyName": "Moldova"
+  }, {
+    "countyCode": "MG",
+    "countyName": "Madagascar"
+  }, {
+    "countyCode": "MF",
+    "countyName": "St-Martin"
+  }, {
+    "countyCode": "MA",
+    "countyName": "Morocco"
+  }, {
+    "countyCode": "MC",
+    "countyName": "Monaco"
+  }, {
+    "countyCode": "UZ",
+    "countyName": "Uzbekistan"
+  }, {
+    "countyCode": "MM",
+    "countyName": "Myanmar"
+  }, {
+    "countyCode": "ML",
+    "countyName": "Mali"
+  }, {
+    "countyCode": "MO",
+    "countyName": "Macao"
+  }, {
+    "countyCode": "MN",
+    "countyName": "Mongolia"
+  }, {
+    "countyCode": "MH",
+    "countyName": "Marshall Is."
+  }, {
+    "countyCode": "MK",
+    "countyName": "North Macedonia"
+  }, {
+    "countyCode": "MU",
+    "countyName": "Mauritius"
+  }, {
+    "countyCode": "MT",
+    "countyName": "Malta"
+  }, {
+    "countyCode": "MW",
+    "countyName": "Malawi"
+  }, {
+    "countyCode": "MV",
+    "countyName": "Maldive"
+  }, {
+    "countyCode": "MQ",
+    "countyName": "Martinique"
+  }, {
+    "countyCode": "MP",
+    "countyName": "Northern Mariana Is."
+  }, {
+    "countyCode": "MS",
+    "countyName": "Montserrat"
+  }, {
+    "countyCode": "MR",
+    "countyName": "Mauritania"
+  }, {
+    "countyCode": "IM",
+    "countyName": "Isle of Man"
+  }, {
+    "countyCode": "UG",
+    "countyName": "Uganda"
+  }, {
+    "countyCode": "TZ",
+    "countyName": "Tanzania"
+  }, {
+    "countyCode": "MY",
+    "countyName": "Malaysia"
+  }, {
+    "countyCode": "MX",
+    "countyName": "Mexico"
+  }, {
+    "countyCode": "IL",
+    "countyName": "Israel"
+  }, {
+    "countyCode": "FR",
+    "countyName": "France"
+  }, {
+    "countyCode": "IO",
+    "countyName": "Indian Ocean Ter."
+  }, {
+    "countyCode": "SH",
+    "countyName": "St. Helena"
+  }, {
+    "countyCode": "FI",
+    "countyName": "Finland"
+  }, {
+    "countyCode": "FJ",
+    "countyName": "Fiji"
+  }, {
+    "countyCode": "FK",
+    "countyName": "Falkland Is."
+  }, {
+    "countyCode": "FM",
+    "countyName": "Micronesia"
+  }, {
+    "countyCode": "FO",
+    "countyName": "Faeroe Is."
+  }, {
+    "countyCode": "NI",
+    "countyName": "Nicaragua"
+  }, {
+    "countyCode": "NL",
+    "countyName": "Netherlands"
+  }, {
+    "countyCode": "NO",
+    "countyName": "Norway"
+  }, {
+    "countyCode": "NA",
+    "countyName": "Namibia"
+  }, {
+    "countyCode": "VU",
+    "countyName": "Vatican"
+  }, {
+    "countyCode": "NC",
+    "countyName": "New Caledonia"
+  }, {
+    "countyCode": "NE",
+    "countyName": "Niger"
+  }, {
+    "countyCode": "NF",
+    "countyName": "Norfolk Island"
+  }, {
+    "countyCode": "NG",
+    "countyName": "Nigeria"
+  }, {
+    "countyCode": "NZ",
+    "countyName": "New Zealand"
+  }, {
+    "countyCode": "NP",
+    "countyName": "Nepal"
+  }, {
+    "countyCode": "NR",
+    "countyName": "Nauru"
+  }, {
+    "countyCode": "NU",
+    "countyName": "Niue"
+  }, {
+    "countyCode": "CK",
+    "countyName": "Cook Is."
+  }, {
+    "countyCode": "XK",
+    "countyName": "Kosovo"
+  }, {
+    "countyCode": "CI",
+    "countyName": "Ivory Coast"
+  }, {
+    "countyCode": "CH",
+    "countyName": "Switzerland"
+  }, {
+    "countyCode": "CO",
+    "countyName": "Colombia"
+  }, {
+    "countyCode": "CN",
+    "countyName": "China"
+  }, {
+    "countyCode": "CM",
+    "countyName": "Cameroon"
+  }, {
+    "countyCode": "CL",
+    "countyName": "Chile"
+  }, {
+    "countyCode": "CC",
+    "countyName": "Cocos Is."
+  }, {
+    "countyCode": "CA",
+    "countyName": "Canada"
+  }, {
+    "countyCode": "CG",
+    "countyName": "Congo"
+  }, {
+    "countyCode": "CF",
+    "countyName": "Central Africa"
+  }, {
+    "countyCode": "CD",
+    "countyName": "DR Congo"
+  }, {
+    "countyCode": "CZ",
+    "countyName": "Czech Republic"
+  }, {
+    "countyCode": "CY",
+    "countyName": "Cyprus"
+  }, {
+    "countyCode": "CX",
+    "countyName": "Christmas Island"
+  }, {
+    "countyCode": "CR",
+    "countyName": "Costa Rica"
+  }, {
+    "countyCode": "CW",
+    "countyName": "Curacao"
+  }, {
+    "countyCode": "CV",
+    "countyName": "Cape Verde"
+  }, {
+    "countyCode": "CU",
+    "countyName": "Cuba"
+  }, {
+    "countyCode": "SZ",
+    "countyName": "Eswatini"
+  }, {
+    "countyCode": "SY",
+    "countyName": "Syria"
+  }, {
+    "countyCode": "SX",
+    "countyName": "Sint Maarten"
+  }, {
+    "countyCode": "KG",
+    "countyName": "Kyrgyzstan"
+  }, {
+    "countyCode": "KE",
+    "countyName": "Kenya"
+  }, {
+    "countyCode": "SS",
+    "countyName": "S. Sudan"
+  }, {
+    "countyCode": "SR",
+    "countyName": "Suriname"
+  }, {
+    "countyCode": "KI",
+    "countyName": "Kiribati"
+  }, {
+    "countyCode": "KH",
+    "countyName": "Cambodia"
+  }, {
+    "countyCode": "KN",
+    "countyName": "St. Kitts and Nevis"
+  }, {
+    "countyCode": "KM",
+    "countyName": "Comoros"
+  }, {
+    "countyCode": "ST",
+    "countyName": "Sao Tome and Principe"
+  }, {
+    "countyCode": "SK",
+    "countyName": "Slovakia"
+  }, {
+    "countyCode": "KR",
+    "countyName": "South Korea"
+  }, {
+    "countyCode": "SI",
+    "countyName": "Slovenia"
+  }, {
+    "countyCode": "KP",
+    "countyName": "Dem. Rep. Korea"
+  }, {
+    "countyCode": "KW",
+    "countyName": "Kuwait"
+  }, {
+    "countyCode": "SN",
+    "countyName": "Senegal"
+  }, {
+    "countyCode": "SM",
+    "countyName": "San Marino"
+  }, {
+    "countyCode": "SL",
+    "countyName": "Sierra Leone"
+  }, {
+    "countyCode": "SC",
+    "countyName": "Seychelles"
+  }, {
+    "countyCode": "KZ",
+    "countyName": "Kazakhstan"
+  }, {
+    "countyCode": "KY",
+    "countyName": "Cayman Is."
+  }, {
+    "countyCode": "SG",
+    "countyName": "Singapore"
+  }, {
+    "countyCode": "SE",
+    "countyName": "Sweden"
+  }, {
+    "countyCode": "SD",
+    "countyName": "Sudan"
+  }, {
+    "countyCode": "DO",
+    "countyName": "Dominican"
+  }, {
+    "countyCode": "DM",
+    "countyName": "Dominica"
+  }, {
+    "countyCode": "DJ",
+    "countyName": "Djibouti"
+  }, {
+    "countyCode": "DK",
+    "countyName": "Denmark"
+  }, {
+    "countyCode": "VG",
+    "countyName": "British Virgin Is."
+  }, {
+    "countyCode": "DE",
+    "countyName": "Germany"
+  }, {
+    "countyCode": "YE",
+    "countyName": "Yemen"
+  }, {
+    "countyCode": "DZ",
+    "countyName": "Algeria"
+  }, {
+    "countyCode": "US",
+    "countyName": "United States"
+  }, {
+    "countyCode": "UY",
+    "countyName": "Uruguay"
+  }, {
+    "countyCode": "YT",
+    "countyName": "Mayotte"
+  }, {
+    "countyCode": "UM",
+    "countyName": "United States Minor Outlying Is."
+  }, {
+    "countyCode": "LB",
+    "countyName": "Lebanon"
+  }, {
+    "countyCode": "LC",
+    "countyName": "Saint Lucia"
+  }, {
+    "countyCode": "LA",
+    "countyName": "Lao PDR"
+  }, {
+    "countyCode": "TV",
+    "countyName": "Tuvalu"
+  }, {
+    "countyCode": "TW",
+    "countyName": "Taiwan"
+  }, {
+    "countyCode": "TT",
+    "countyName": "Trinidad and Tobago"
+  }, {
+    "countyCode": "TR",
+    "countyName": "Turkey"
+  }, {
+    "countyCode": "LK",
+    "countyName": "Sri Lanka"
+  }, {
+    "countyCode": "LI",
+    "countyName": "Liechtenstein"
+  }, {
+    "countyCode": "LV",
+    "countyName": "Latvia"
+  }, {
+    "countyCode": "TO",
+    "countyName": "Tonga"
+  }, {
+    "countyCode": "LT",
+    "countyName": "Lithuania"
+  }, {
+    "countyCode": "LU",
+    "countyName": "Luxembourg"
+  }, {
+    "countyCode": "LR",
+    "countyName": "Liberia"
+  }, {
+    "countyCode": "LS",
+    "countyName": "Lesotho"
+  }, {
+    "countyCode": "TH",
+    "countyName": "Thailand"
+  }, {
+    "countyCode": "TF",
+    "countyName": "French Southern Territories"
+  }, {
+    "countyCode": "TG",
+    "countyName": "Togo"
+  }, {
+    "countyCode": "TD",
+    "countyName": "Chad"
+  }, {
+    "countyCode": "TC",
+    "countyName": "Turks and Caicos Is."
+  }, {
+    "countyCode": "LY",
+    "countyName": "Libya"
+  }, {
+    "countyCode": "VA",
+    "countyName": "Holy See"
+  }, {
+    "countyCode": "VC",
+    "countyName": "Saint Vincent and the Grenadines"
+  }, {
+    "countyCode": "AE",
+    "countyName": "UAE"
+  }, {
+    "countyCode": "AD",
+    "countyName": "Andorra"
+  }, {
+    "countyCode": "AG",
+    "countyName": "Antigua and Barbuda"
+  }, {
+    "countyCode": "AF",
+    "countyName": "Afghanistan"
+  }, {
+    "countyCode": "AI",
+    "countyName": "Anguilla"
+  }, {
+    "countyCode": "VI",
+    "countyName": "U.S. Virgin Is."
+  }, {
+    "countyCode": "IS",
+    "countyName": "Iceland"
+  }, {
+    "countyCode": "IR",
+    "countyName": "Iran"
+  }, {
+    "countyCode": "AM",
+    "countyName": "Armenia"
+  }, {
+    "countyCode": "AL",
+    "countyName": "Albania"
+  }, {
+    "countyCode": "AO",
+    "countyName": "Angola"
+  }, {
+    "countyCode": "AQ",
+    "countyName": "Antarctica"
+  }, {
+    "countyCode": "AS",
+    "countyName": "American Samoa"
+  }, {
+    "countyCode": "AR",
+    "countyName": "Argentina"
+  }, {
+    "countyCode": "AU",
+    "countyName": "Australia"
+  }, {
+    "countyCode": "AT",
+    "countyName": "Austria"
+  }, {
+    "countyCode": "AW",
+    "countyName": "Aruba"
+  }, {
+    "countyCode": "IN",
+    "countyName": "India"
+  }, {
+    "countyCode": "AX",
+    "countyName": "Aland"
+  }, {
+    "countyCode": "AZ",
+    "countyName": "Azerbaijan"
+  }, {
+    "countyCode": "IE",
+    "countyName": "Ireland"
+  }, {
+    "countyCode": "ID",
+    "countyName": "Indonesia"
+  }, {
+    "countyCode": "UA",
+    "countyName": "Ukraine"
+  }, {
+    "countyCode": "QA",
+    "countyName": "Qatar"
+  }, {
+    "countyCode": "MZ",
+    "countyName": "Mozambique"
+  }, {
+    "countyCode": "OT",
+    "countyName": "Int'l conveyance (Japan)"
+  }, {
+    "countyCode": "OT",
+    "countyName": "N. Cyprus"
+  },
+  {
+    "countyCode": "OT",
+    "countyName": "Siachen Glacier"
+  },
+  {
+    "countyCode": "AU",
+    "countyName": "Ashmore and Cartier Is."
+  }
+]
