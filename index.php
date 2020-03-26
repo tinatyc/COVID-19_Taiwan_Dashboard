@@ -5,35 +5,36 @@
   <script src="js/analytics.js"></script>
   <script src="https://www.google-analytics.com/analytics.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160692102-1"></script>
+  <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-<meta HTTP-EQUIV="Expires" CONTENT="-1">
+  <meta HTTP-EQUIV="Expires" CONTENT="-1">
   <meta name="description" content="呈現來自中國武漢病毒所造成的疫情情報" />
   <meta name="author" content="Tzeng,Ying-Chi" />
   <!-- og -->
-<meta property="og:title" content="武漢肺炎疫情 台灣情報站">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="武漢肺炎疫情-台灣情報站">
-<meta property="og:url" content="https://covid19.tzeng17.com/">
-<meta property="og:image:width" content="885">
-<meta property="og:image:height" content="885">
-<meta property="og:image" content="https://covid19.tzeng17.com/img/favicon.png">
-<meta property="og:description" content="呈現來自中國武漢病毒所造成的疫情情報">
-<!-- og -->
-<link rel="apple-touch-icon" sizes="180x180" href="https://covid19.tzeng17.com/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://covid19.tzeng17.com/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://covid19.tzeng17.com/img/favicon-16x16.png">
-<link rel="manifest" href="https://covid19.tzeng17.com/img/site.webmanifest">
+  <meta property="og:title" content="武漢肺炎疫情 台灣情報站">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="武漢肺炎疫情-台灣情報站">
+  <meta property="og:url" content="https://covid19.tzeng17.com/">
+  <meta property="og:image:width" content="885">
+  <meta property="og:image:height" content="885">
+  <meta property="og:image" content="https://covid19.tzeng17.com/img/favicon.png">
+  <meta property="og:description" content="呈現來自中國武漢病毒所造成的疫情情報">
+  <!-- og -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://covid19.tzeng17.com/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://covid19.tzeng17.com/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://covid19.tzeng17.com/img/favicon-16x16.png">
+  <link rel="manifest" href="https://covid19.tzeng17.com/img/site.webmanifest">
   <title>武漢肺炎疫情-台灣情報站</title>
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-<link rel="manifest" href="img/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />  
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/shared-style.css" />
   <link rel="stylesheet" href="css/demo-style.css" />
   <link rel="stylesheet" type="text/css" href="css/taiwan-map.css" />
@@ -50,6 +51,16 @@
     font-size: .75rem;
     transition: .5s;
   }
+
+  #cityListTable>thead>tr>th {
+    cursor: default !important;
+  }
+
+  #cityListTable>thead>tr>th[class*="sort"]:before,
+  #cityListTable>thead>tr>th[class*="sort"]:after {
+    content: "" !important;
+    display: none;
+  }
   </style>
 </head>
 
@@ -57,7 +68,7 @@
   <nav class="t-header">
     <div class="t-header-brand-wrapper">
       <a href="index.php" class="text-danger">
-      <img class="logo logo px-3" src="img/logo.svg"/>
+        <img class="logo logo px-3" src="img/logo.svg" />
         <div class="text-gray">
           <p>武漢肺炎疫情</p>
           <p>台灣情報站</p>
@@ -77,7 +88,7 @@
     <div id="sideBar" class="sidebar"></div>
     <!-- partial -->
     <div class="page-content-wrapper">
-    <div class="loading">
+      <div class="loading">
         <span class="spinner-grow" role="status" aria-hidden="true"></span>
       </div>
       <div class="page-content-wrapper-inner">
@@ -188,7 +199,7 @@
           <div class="col-12 py-3">
             <h4>地區年齡性別統計表</h4>
           </div>
-          <table id="nCoVCaseTable" class="table table-hover table-light  table-responsive-sm">
+          <table id="nCoVCaseTable" class="table table-hover table-light  table-responsive-sm text-center">
             <thead>
               <tr>
                 <th scope="col">診斷月份</th>
@@ -210,6 +221,9 @@
               </div>
               <div class="align-items-sm-center card-body d-flex row">
                 <!-- <img class="tw-map" src="img/tw.svg" alt=""> -->
+                <div class="col-12">
+                  <p class="text-center text-gray">滑鼠移到地圖上，查看各縣市病例數</p>
+                </div>
                 <div id="TW-case-map" class="col-sm-12 col-md-9">
                   <xml version="1.0" encoding="utf-8">
                     <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -397,7 +411,7 @@
                   <!-- tooltip-box -->
                 </div>
                 <div class="col-sm-12 col-md-3">
-                  <table class="table table-bordered table-sm table-hover">
+                  <table id="cityListTable" class="table table-bordered table-sm table-hover">
                     <thead>
                       <tr>
                         <th scope="col">縣市地區</th>
@@ -407,27 +421,19 @@
                     <tbody id="tw-city-list" class="font-weight-bold">
                       <tr id="TW_1">
                         <th scope="row">基隆市</th>
-                        <td>
-                          <span class="text-primary">1</span>
-                        </td>
+                        <td>1</td>
                       </tr>
                       <tr id="TW_2">
                         <th scope="row">台北市</th>
-                        <td>
-                          <span class="text-primary">10</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_3">
                         <th scope="row">新北市</th>
-                        <td>
-                          <span class="text-primary">11</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_4">
                         <th scope="row">桃園市</th>
-                        <td>
-                          <span class="text-primary">11</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_5">
                         <th scope="row">新竹市</th>
@@ -443,21 +449,15 @@
                       </tr>
                       <tr id="TW_8">
                         <th scope="row">台中市</th>
-                        <td>
-                          <span class="text-primary">5</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_9">
                         <th scope="row">彰化縣</th>
-                        <td>
-                          <span class="text-primary">5</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_10">
                         <th scope="row">南投縣</th>
-                        <td>
-                          <span class="text-primary">2</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_11">
                         <th scope="row">雲林縣</th>
@@ -473,15 +473,11 @@
                       </tr>
                       <tr id="TW_14">
                         <th scope="row">台南市</th>
-                        <td>
-                          <span class="text-primary">2</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_15">
                         <th scope="row">高雄市</th>
-                        <td>
-                          <span class="text-primary">2</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_16">
                         <th scope="row">屏東縣</th>
@@ -497,9 +493,7 @@
                       </tr>
                       <tr id="TW_19">
                         <th scope="row">宜蘭縣</th>
-                        <td>
-                          <span class="text-primary">1</span>
-                        </td>
+                        <td>0</td>
                       </tr>
                       <tr id="TW_20">
                         <th scope="row">澎湖縣</th>

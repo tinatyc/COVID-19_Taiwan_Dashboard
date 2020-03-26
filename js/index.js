@@ -6,71 +6,73 @@ let cityCaseArr = [];
 
 function getTWData() {
   return new Promise(function (resolve, reject) {
-  $.ajax({
-    url: path + "api-TWData.php",
-    type: "GET",
-    success: function (data) {
-      parseJSON = $.parseJSON(data);
-      // console.log(parseJSON[0]);
-      diagnoseNum = parseJSON[0].確診;
-      releaseNum = parseJSON[0].解除隔離;
-      deadNum = parseJSON[0].死亡;
-      inspectNum = parseJSON[0].送驗;
-      excludeNum = parseJSON[0]['排除(新)'];
-      ysdDiagnoseNum = parseJSON[0].昨日確診;
-      ysdInspectionNum = parseJSON[0].昨日送驗;
-      ysdExcludeNum = parseJSON[0]['昨日排除(新)'];
-      // console.log(
-      //   diagnoseNum, releaseNum, deadNum, inspectNum, excludeNum, ysdDiagnoseNum, ysdInspectionNum, ysdExcludeNum
-      // );
-      
-    },
-    error: function (data) {
-      console.log(data);
-    },
-    complete: function (data) {
-      // console.log(data);
-      TWObjData ={
-        "diagnoseNum":diagnoseNum,
-        "releaseNum":releaseNum,
-        "deadNum":deadNum,
-        "inspectNum":inspectNum,
-        "excludeNum":excludeNum,
-        "ysdDiagnoseNum":ysdDiagnoseNum,
-        "ysdInspectionNum":ysdInspectionNum,
-        "ysdExcludeNum":ysdExcludeNum
+    $.ajax({
+      url: path + "api-TWData.php",
+      type: "GET",
+      success: function (data) {
+        parseJSON = $.parseJSON(data);
+        // console.log(parseJSON[0]);
+        diagnoseNum = parseJSON[0].確診;
+        releaseNum = parseJSON[0].解除隔離;
+        deadNum = parseJSON[0].死亡;
+        inspectNum = parseJSON[0].送驗;
+        excludeNum = parseJSON[0]['排除(新)'];
+        ysdDiagnoseNum = parseJSON[0].昨日確診;
+        ysdInspectionNum = parseJSON[0].昨日送驗;
+        ysdExcludeNum = parseJSON[0]['昨日排除(新)'];
+        // console.log(
+        //   diagnoseNum, releaseNum, deadNum, inspectNum, excludeNum, ysdDiagnoseNum, ysdInspectionNum, ysdExcludeNum
+        // );
+
+      },
+      error: function (data) {
+        console.log(data);
+      },
+      complete: function (data) {
+        // console.log(data);
+        TWObjData = {
+          "diagnoseNum": diagnoseNum,
+          "releaseNum": releaseNum,
+          "deadNum": deadNum,
+          "inspectNum": inspectNum,
+          "excludeNum": excludeNum,
+          "ysdDiagnoseNum": ysdDiagnoseNum,
+          "ysdInspectionNum": ysdInspectionNum,
+          "ysdExcludeNum": ysdExcludeNum
         }
         renderData(TWObjData);
-    }
+      }
+    });
+    resolve();
   });
-  resolve();
-});
 }
-function renderData(TWObjData){
-// $("#ysdExcludeTitle").html(returnData.Title + ' <i class="fas fa-child"></i>');
-$("#ysdExcludeNum").html(TWObjData.ysdExcludeNum);
 
-// $("#ysdInspectionTitle").html(returnData.Title + ' <i class="fas fa-ambulance fa-sm"></i>');
-$("#ysdInspectionNum").html(ysdInspectionNum);
+function renderData(TWObjData) {
+  // $("#ysdExcludeTitle").html(returnData.Title + ' <i class="fas fa-child"></i>');
+  $("#ysdExcludeNum").html(TWObjData.ysdExcludeNum);
 
-// $("#excludeTitle").html(returnData.Title + ' <i class="fas fa-child"></i>');
-$("#excludeNum").html(TWObjData.excludeNum);
+  // $("#ysdInspectionTitle").html(returnData.Title + ' <i class="fas fa-ambulance fa-sm"></i>');
+  $("#ysdInspectionNum").html(ysdInspectionNum);
 
-// $("#inspectTitle").html(returnData.Title + ' <i class="fas fa-ambulance fa-sm"></i>');
- $("#inspectNum").html(TWObjData.inspectNum);
- 
-//  $("#releaseTitle").html(returnData.Title + ' <i class="fas fa-smile"></i>')
- $("#releaseNum").html(TWObjData.releaseNum);
- 
-//  $("#ysdDiagnoseTitle").html('昨日' + returnData.Title + ' <i class="fas fa-syringe"></i>');
- $("#ysdDiagnoseNum").html(TWObjData.ysdDiagnoseNum);
- 
-//  $("#deadTitle").html(returnData.Title + ' <i class="fas fa-skull-crossbones"></i>');
- $("#deadNum").html(TWObjData.deadNum);
- 
-//  $("#diagnoseTitle").html('總' + returnData.Title + ' <i class="far fa-hospital"></i>');
- $("#diagnoseNum").html(TWObjData.diagnoseNum);
+  // $("#excludeTitle").html(returnData.Title + ' <i class="fas fa-child"></i>');
+  $("#excludeNum").html(TWObjData.excludeNum);
+
+  // $("#inspectTitle").html(returnData.Title + ' <i class="fas fa-ambulance fa-sm"></i>');
+  $("#inspectNum").html(TWObjData.inspectNum);
+
+  //  $("#releaseTitle").html(returnData.Title + ' <i class="fas fa-smile"></i>')
+  $("#releaseNum").html(TWObjData.releaseNum);
+
+  //  $("#ysdDiagnoseTitle").html('昨日' + returnData.Title + ' <i class="fas fa-syringe"></i>');
+  $("#ysdDiagnoseNum").html(TWObjData.ysdDiagnoseNum);
+
+  //  $("#deadTitle").html(returnData.Title + ' <i class="fas fa-skull-crossbones"></i>');
+  $("#deadNum").html(TWObjData.deadNum);
+
+  //  $("#diagnoseTitle").html('總' + returnData.Title + ' <i class="far fa-hospital"></i>');
+  $("#diagnoseNum").html(TWObjData.diagnoseNum);
 }
+
 function diagnose() {
   return new Promise(function (resolve, reject) {
     $.ajax({
@@ -326,6 +328,7 @@ function nConVList() {
         isOutCase = v.是否為境外移入;
         caseAge = v.年齡層;
         caseNum = v.確定病例數;
+        // console.log(isOutCase);
         caseNumInt = parseInt(caseNum, 10);
         caseNumArr.push(caseNumInt);
         cityArr.push(caseCity);
@@ -334,6 +337,11 @@ function nConVList() {
         } else {
           caseSex = "男";
         };
+        if (isOutCase == "是") {
+          isOutCaseIcon = '<i class="far fa-circle text-success"></i>';
+        } else {
+          isOutCaseIcon = '<i class="fas fa-times text-danger"></i>';
+        }
         caseCityCode = findCityCode(caseCity).cityCode;
         caseCityName = findCityCode(caseCity).cityName;
         // console.log(caseCityName);
@@ -349,7 +357,7 @@ function nConVList() {
         $("#nConVList").append(
           '<tr><td>' + caseMonth + '</td><td data-order="' + caseCityCode + '">' + caseCity +
           '</td><td>' + caseSex + '</td><td>' +
-          caseAge + '</td><td>' + caseNum + '</td><td>' + isOutCase + '</td></tr>');
+          caseAge + '</td><td>' + caseNum + '</td><td>' + isOutCaseIcon + '</td></tr>');
       });
       // parseJSON = $.parseJSON(data);
     },
@@ -383,7 +391,13 @@ function renderSVGColor() {
     cNum = parseInt($("#TW_" + i + " > td").text(), 10) * 5;
     let r = 255;
     let g = 255 - cNum;
-    let b = 255 - cNum;
+    let b = g;
+
+    if (g <= 0) {
+      g = 0;
+      b = g;
+    }
+
     hexColor = rgbToHex(r, g, b);
     // console.log(hexColor);
     $("#tw-map-" + i).css({
@@ -403,17 +417,17 @@ function countCityCase(cityCaseArr) {
       // console.log(currCityCode, prevCityCode);
       prevCityCode = currCityCode;
       currCaseCityNum = cityCaseArr[i].caseCityNum;
-      $("#TW_" + currCityCode + " > td").html("<span class='text-primary'>" + currCaseCityNum + "</span>");
+      $("#TW_" + currCityCode + " > td").html("<span class='text-warning'>" + currCaseCityNum + "</span>");
     } else if (prevCityCode == currCityCode) {
       // console.log("pc:" + currCityCode, prevCityCode);
       prevCaseCityNum = parseInt($("#TW_" + prevCityCode + " > td").text(), 10);
       currCaseCityNum = parseInt(cityCaseArr[i].caseCityNum, 10);;
       NewCaseCityNum = prevCaseCityNum + currCaseCityNum;
-      $("#TW_" + prevCityCode + " > td").html("<span class='text-primary'>" + NewCaseCityNum + "</span>");
+      $("#TW_" + prevCityCode + " > td").html("<span class='text-warning'>" + NewCaseCityNum + "</span>");
     }
   }
   TW_1_Num = parseInt($("#TW_1 > td").text(), 10) - 1;
-  $("#TW_1 > td").html("<span class='text-primary'>" + TW_1_Num + "</span>");
+  $("#TW_1 > td").html("<span class='text-warning'>" + TW_1_Num + "</span>");
   // console.log(TW_1_Num);
 
 }
@@ -457,6 +471,26 @@ function nCovDataTable() {
         '<option value="-1">All</option>' +
         '</select> 筆資料'
     }
+  });
+  $("#cityListTable").DataTable({
+    "paging": false,
+    "searching": false,
+    "info": false,
+    "orderFixed": [
+      [1, "desc"],
+      [0, "desc"]
+    ],
+    "columns": [{
+        "orderable": false
+      },
+      {
+        "orderable": false
+      },
+    ],
+    "columnDefs": [{
+      "orderable": false,
+      "targets": 0
+    }]
   });
 }
 
