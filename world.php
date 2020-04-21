@@ -2,9 +2,9 @@
 <html lang="zh-tw">
 
 <head>
-  <script src="js/analytics.js"></script>
+  <!-- <script src="js/analytics.js"></script>
   <script src="https://www.google-analytics.com/analytics.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160692102-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160692102-1"></script> -->
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -13,19 +13,19 @@
   <meta name="description" content="呈現來自中國武漢病毒所造成的疫情情報" />
   <meta name="author" content="Tzeng,Ying-Chi" />
   <!-- og -->
-<meta property="og:title" content="武漢肺炎疫情 台灣情報站">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="武漢肺炎疫情-台灣情報站">
-<meta property="og:url" content="https://covid19.tzeng17.com/">
-<meta property="og:image:width" content="885">
-<meta property="og:image:height" content="885">
-<meta property="og:image" content="https://covid19.tzeng17.com/img/favicon.png">
-<meta property="og:description" content="呈現來自中國武漢病毒所造成的疫情情報">
-<!-- og -->
+  <meta property="og:title" content="武漢肺炎疫情 台灣情報站">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="武漢肺炎疫情-台灣情報站">
+  <meta property="og:url" content="https://covid19.tzeng17.com/">
+  <meta property="og:image:width" content="885">
+  <meta property="og:image:height" content="885">
+  <meta property="og:image" content="https://covid19.tzeng17.com/img/favicon.png">
+  <meta property="og:description" content="呈現來自中國武漢病毒所造成的疫情情報">
+  <!-- og -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://covid19.tzeng17.com/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://covid19.tzeng17.com/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://covid19.tzeng17.com/img/favicon-16x16.png">
-<link rel="manifest" href="https://covid19.tzeng17.com/img/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://covid19.tzeng17.com/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://covid19.tzeng17.com/img/favicon-16x16.png">
+  <link rel="manifest" href="https://covid19.tzeng17.com/img/site.webmanifest">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css' />
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
   <link rel="stylesheet" type="text/css"
@@ -35,7 +35,7 @@
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.css' />
-  <link rel="stylesheet" href="css/style.css" />  
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/shared-style.css" />
   <link rel="stylesheet" href="css/demo-style.css" />
   <link rel="stylesheet" href="css/world.css">
@@ -52,7 +52,7 @@
     <div class="t-header-brand-wrapper">
       <a href="index.php" class="text-danger">
         <!-- <img src="https://api.fnkr.net/testimg/50x50/00CED1/FFF/?text=wuhan" /> -->
-        <img class="logo logo px-3" src="img/logo.svg"/>
+        <img class="logo logo px-3" src="img/logo.svg" />
         <div class="text-gray">
           <p>武漢肺炎疫情</p>
           <p>台灣情報站</p>

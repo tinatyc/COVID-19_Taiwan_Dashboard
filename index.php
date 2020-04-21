@@ -2,9 +2,9 @@
 <html lang="zh-tw">
 
 <head>
-  <script src="js/analytics.js"></script>
+  <!-- <script src="js/analytics.js"></script>
   <script src="https://www.google-analytics.com/analytics.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160692102-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160692102-1"></script> -->
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
